@@ -4,7 +4,7 @@
 Thursday February 02, 2017 at 11:15AM
 
 ## Important Notes
-* Make sure you upload your iPython Notebook [with this form](NOT_A_LINK) at the end of the exam, with all the cells already evaluated.
+* Make sure you upload your iPython Notebook [with this form](https://script.google.com/macros/s/AKfycbxOi0MpR3WnGXrXjx85Q5W7ENteJI3gpD4_VL3zfZaX3CHnCDQ/exec) at the end of the exam, with all the cells already evaluated.
 * Don't forget to add a textual description of your thought process, the assumptions you made, and the solution
 you plan to implement!
 * Please write all your comments in English, and use meaningful variable names in your code.
