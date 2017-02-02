@@ -27,21 +27,21 @@ Load the two files into Pandas dataframes, and then generate two additional data
 Whenever asked, perform the task on both the full dataframes and the downsampled ones, discussing what is the impact of the downsampling (if any).
 
 ## Tasks
-0. Perform Data Wrangling as you see fit on *both the full and downsampled dataframes*, justifying your choices.
+1. Perform **data wrangling** as you see fit on *both the full and downsampled dataframes*, justifying your choices.
 
-1. By means of descriptive statistics and plots, show the different volume of engagement (e.g., number of favorites and retweets) that the accounts generate.
+2. By means of **descriptive statistics and plots**, show the different volume of engagement (e.g., number of favorites and retweets) that the accounts generate.
 Compute the results per year (to highlight the growth trends), per month (to figure out if the accounts follow the academic year), and per hour of the day (to
 find out if tweets posted at a certain hour get more attention). Similarly, break down the results per hashtag (e.g., #EPFLisAwesome) -- are there hashtags that
 are used more often than others, and that obtain more engagement than others?
 
-2. Train a regressor (*both on the full and downsampled dataframes*) to predict how many retweets a certain Tweet will get. You are allowed to use as features
+3. Train a **regressor** (*both on the full and downsampled dataframes*) to predict how many retweets a certain Tweet will get. You are allowed to use as features
 only the attributes in the JSON objects (and any derivative that you can build locally) -- you are not allowed to download additional data from the Internet
 to boost your model. Discuss the obtained results, explain the performance on the downsampled dataframes, and briefly describe what additional features you
 would have used if you had access to the full Twitter API.
 
   *HINT*: for a more powerful model, consider time (and how the audience of the accounts grew throughout the years...)
 
-3. Find the topics that are covered most of the time by the two Twitter accounts (*both on the full and downsampled dataframes*). You can run topic modeling and/or
+4. Find the **topics** that are covered most of the time by the two Twitter accounts (*both on the full and downsampled dataframes*). You can run topic modeling and/or
 implement your own NLP pipeline. Do the topics change significantly over time? Is there an overlap with the hashtags used in the tweets?
 
   *HINT*: clustering Tweets by some features (e.g., hashtags) will give you better results with topic modeling.
